@@ -250,6 +250,7 @@ section.success {
 .floating-label-form-group textarea {
   z-index: 1;
   position: relative;
+  color: #2a3035;
   padding-right: 0;
   padding-left: 0;
   border: none;
@@ -258,6 +259,9 @@ section.success {
   background: none;
   box-shadow: none !important;
   resize: none;
+}
+.floating-label-form-group li {
+  color: #2a3035;
 }
 .floating-label-form-group label {
   display: block;
@@ -284,7 +288,7 @@ section.success {
   opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-  color: #7b807f;
+  color: #2a3035;
 }
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
@@ -307,9 +311,9 @@ footer .footer-below {
   background-color: #111213;
 }
 .btn-outline {
-  color: white;
+  color: #2a3035;
   font-size: 20px;
-  border: solid 2px white;
+  border: solid 2px #2a3035;
   background: transparent;
   transition: all 0.3s ease-in-out;
   margin-top: 15px;
@@ -318,8 +322,8 @@ footer .footer-below {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: #7b807f;
-  background: white;
+  color: white;
+  background: #2a3035;
   border: solid 2px white;
 }
 .btn-primary {
@@ -366,8 +370,8 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-success {
   color: white;
-  background-color: #7b807f;
-  border-color: #7b807f;
+  background-color: #2a3035;
+  border-color: #2a3035;
   font-weight: 700;
 }
 .btn-success:hover,
@@ -376,8 +380,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-success.active,
 .open .dropdown-toggle.btn-success {
   color: white;
-  background-color: #128f76;
-  border-color: #11866f;
+  background-color: #2a3035;
+  border-color: white;
 }
 .btn-success:active,
 .btn-success.active,
@@ -415,6 +419,22 @@ fieldset[disabled] .btn-success.active {
   text-align: center;
   font-size: 20px;
   line-height: 45px;
+}
+.btn-social-outline {
+  color: white;
+  font-size: 20px;
+  border: solid 2px white;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+  margin-top: 15px;
+}
+.btn-social-outline:hover,
+.btn-social-outline:focus,
+.btn-social-outline:active,
+.btn-social-outline.active {
+  color: #7b807f;
+  background: white;
+  border: solid 2px white;
 }
 .scroll-top {
   position: fixed;
